@@ -26,9 +26,8 @@ def guess_loop(guess):
 
 
 def main():
-
+    
     correct = False
-
     if len(Secret) >= 9:
         tries = 15
     else:
@@ -56,6 +55,5 @@ def main():
                 print("you win !")
                 break
 
-
-
+                
 main()
